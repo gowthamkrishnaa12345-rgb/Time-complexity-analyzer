@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DAA Time Complexity Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js for Graph -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📊 Time Complexity Analyzer</h1>
+
+    <select id="algorithm">
+        <option value="linear">Linear Search</option>
+        <option value="binary">Binary Search</option>
+        <option value="bubble">Bubble Sort</option>
+    </select>
+
+    <input type="number" id="inputSize" placeholder="Enter n value">
+
+    <button onclick="analyze()">Analyze</button>
+
+    <div id="result"></div>
+
+    <canvas id="graph" width="400" height="200"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
