@@ -1,0 +1,12 @@
+This project analyzes the time complexity of basic algorithms like Linear Search, Binary Search, and Bubble Sort by simulating execution steps.
+
+  Features
+- Algorithm selection
+- Input size based analysis
+- Operation counting
+- Big-O complexity display
+
+ Technologies Used
+- HTML
+- CSS
+- JavaScript
